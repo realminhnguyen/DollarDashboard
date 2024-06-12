@@ -1,0 +1,10 @@
+06-12-24
+- created flask-server dir with server.py file for backend
+- ran npx create-react-app client to create a react app dir named client
+- created virtual env while in flask-server dir
+- installed flask 
+Setting up backend API:
+- imported flask into server.py, initialized a flask application instance 
+- created simple API route to return a list of members
+Working on frontend:
+- remove some unnecessary files
