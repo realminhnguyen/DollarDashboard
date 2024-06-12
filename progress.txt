@@ -8,3 +8,7 @@ Setting up backend API:
 - created simple API route to return a list of members
 Working on frontend:
 - remove some unnecessary files
+- in package.json, wrote "proxy": "http://localhost:5000", to tell react which port our backend is running on so that we can make relative requests
+- in App.js, created react functional component and export
+- 'useState' will contain the data retrieved from the back end. will also render the data on the page
+- 'useEffect' will be used to fetch the backend api on the first render
